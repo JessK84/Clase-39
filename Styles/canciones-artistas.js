@@ -67,7 +67,7 @@ while (quiereContinuar){
     break;   
     case "4" :
     case "salir":
-        alert(`Gracias por disfrutar nuestros serivicios`)
+        alert(`Gracias por disfrutar nuestros servicios`)
         quiereContinuar=false;
     break;
     default:
