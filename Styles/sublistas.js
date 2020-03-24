@@ -52,4 +52,4 @@ let mensajeTarea =""; // para que no me sume tareas a todas las categorías
     terminarPrograma=confirm(`¿Desea agregar nueva categoría?`) 
 }
 
-alert(`Gracias! nos vemos luego`)
+alert(`¡Hasta la vista baby!`)
