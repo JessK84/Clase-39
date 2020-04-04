@@ -30,7 +30,6 @@ while (quiereContinuar){
     switch(queQuiereHacer){
         case "1": 
         case "agregar":
-        case "agregar canción":
         ingresarCancion =prompt(`Ingrese un artista, luego la canción separado por una coma`).split(`,`);
         buscarCanciones.push(ingresarCancion);   //ingrese al array de buscar canciones       
         alert(`Acabas de ingresar a la lista: ` +`\n`+`________________` + ` \n`+ `${ingresarCancion}`);

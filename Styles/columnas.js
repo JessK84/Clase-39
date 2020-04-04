@@ -11,7 +11,7 @@ const numeros =
 
 let columna =Number(prompt(`¿Qué columna desea sumar?`));
 let resultado=0;
-let nuevoNumeros="";
+
 
 for (let i=0; i < numeros.length; i++){  //solo un array porque se tiene que llegar a las columas, no al interior. Para acceder a las filas, va el segundo for. 
         if(columna===0){
@@ -26,7 +26,7 @@ for (let i=0; i < numeros.length; i++){  //solo un array porque se tiene que lle
             mensaje=`La columna no existe`;
         }
     }
-//Para que pueda mostrar el mensaje según el resultado, dado que los alert dentro del for hacen que re repliquen varias veces.
+//Para que pueda mostrar el mensaje según el resultado, dado que los alert dentro del for hacen que repliquen varias veces.
 if (resultado) {
     alert(`La columna ${columna} suma en total ${resultado}`)
 } else if(!resultado) { 
