@@ -1,3 +1,7 @@
+// RESUELTO EN CLASE - NO CORREGIR
+
+
+
 const tablero =
     [
         ['🌱', '🌱', '🍎', '🌱', '🌱'],
