@@ -9,6 +9,13 @@ const numeros =
     [22, 3, 24, 4]
 ]
 
+// [
+// [0, 0, 0, 0],
+// [0, 1, 0, 0],  
+// [0, 1, 1, 0],
+// [1, 1, 1, 1]
+// ]
+
 let columna =Number(prompt(`¿Qué columna desea sumar?`));
 let resultado=0;
 
